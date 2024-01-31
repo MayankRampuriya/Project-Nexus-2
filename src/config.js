@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
-const connect = mongoose.connect("mongodb+srv://gauravdabureee21:Fsd76SAqY2cqPx9d@login-signup.00vfkvw.mongodb.net/");
+const connect = mongoose.connect("mongodb+srv://mayankrampuriya:Mayank69@cluster0.6dybdoj.mongodb.net/?retryWrites=true&w=majority/");
+
 // mongodb://localhost:27017
 // Check database connected or not
-"mongodb+srv://gauravdabureee21:Fsd76SAqY2cqPx9d@login-signup.00vfkvw.mongodb.net/"
 connect.then(() => {
     console.log("Database Connected Successfully");
 })
